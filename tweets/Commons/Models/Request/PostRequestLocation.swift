@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct PostRequestLocation: Codable {
+    let latitude: Double
+    let longitude: Double
+}

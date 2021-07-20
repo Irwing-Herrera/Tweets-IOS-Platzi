@@ -9,7 +9,7 @@ import Foundation
 
 struct NewPostRequest {
     let text: String
-    let imageUrl: String
-    let videoUrl: String
-    let location: Location
+    let imageUrl: String?
+    let videoUrl: String?
+    let location: PostRequestLocation?
 }

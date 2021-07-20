@@ -12,5 +12,7 @@ struct EndPoints {
     
     static let login = EndPoints.domain + "/auth"
     static let register = EndPoints.domain + "/register"
-    static let post = EndPoints.domain + "/posts"
+    static let getPosts = EndPoints.domain + "/posts"
+    static let newPost = EndPoints.domain + "/posts"
+    static let deletePost = EndPoints.domain + "/posts/"
 }
